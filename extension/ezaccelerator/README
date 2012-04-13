@@ -1,0 +1,83 @@
+###
+#
+# @author Sebastien Morel <s.morel@novactive.com>
+# @copyright Copyright 2011 (c) Novactive. All rights reserved.
+# @license eZ Proprietary Extension License (PEL), Version 1.3
+# @version 1.3-1
+#
+##
+
+===============================
+eZ Accelerator extension README
+===============================
+
+Main features
+=============
+
+The principle of purging the Varnish cache is modeled on the system emptying the view cache of eZ Publish.
+It does not just empty the alias nodes URL but, all URLs. (layouts, views, siteaccess host/uri etc.).
+The purge is asynchronous and does not slow down the publication.
+
+- Varnish control from the eZ Administration Interface
+- Multi Varnish support (in case of redundant Varnish)
+- Purging Varnish cache
+	- on content publication
+	- via a button in the eZ Administration Interface
+	- via a php script from the command line
+- Varnish configuration file optimized for eZ Publish
+- StaleCache support to tell Varnish not to cache a page coming from the eZ Publish StaleCache
+- Template operator to call the layout "*esi*" of a node: *esi-block*
+- Template operator to send a ttl to Varnish stating its lifetime: *varnish-ttl* (overloading the Varnish configuration)
+- Policy system for emptying the varnish cache
+- Support compatible (not kernel hack)
+- Multi-lingual
+	- *fr*
+	- *en*
+
+
+-----------
+Description
+-----------
+
+eZ Accelerator is an eZ Publish connector to connect this CMS to Varnish ReverseProxy.
+
+The main interest of eZAccelerator is in its ability to purge Varnish cache at publication of content.
+The behaviour of purging the Varnish cache is modeled on the system emptying the view cache of eZ Publish.
+It does not just empty the alias nodes URL but all URLs. (layouts, views, siteaccess host/uri etc.).
+The dump is asynchronous and does not slow down the publication.
+
+eZ Accelerator is also an administrative panel that allows remote control of Varnish:
+ 
+- Launch of various commands
+- Purging specific pattern (via regex)
+
+This interface ensures a flexible use of Varnish, no need to contact the host provider to clear a particular URL when put into production.
+
+In this extension you will also find an *esi* PageLayout and a template operator *esi-block*. Together, they allow to include ESI in your pages.
+And specify the ttl of the ESI via a persistent variable named: *ttl*.
+
+Finally eZ Accelerator provides a Varnish sample configuration file optimized for eZ Publish.
+
+**Note**: The StaleCache is managed by eZ Accelerator if you use this configuration file, Varnish will not cache the pages delivered by the StaleCache.
+
+**Note 2**: A template operator: *varnish-ttl* lets you define a specific *ttl* of Varnish cache.
+
+
+Requirement
+===========
+See, doc/INSTALL
+
+Licence
+=======
+See, LICENSE
+
+
+Changelog
+========= 
+See, doc/NEWS
+
+
+Installation
+============
+See, doc/INSTALL
+

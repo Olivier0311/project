@@ -1,0 +1,150 @@
+###
+#
+# @author Sebastien Morel <s.morel@novactive.com>
+# @copyright Copyright 2011 (c) Novactive. All rights reserved.
+# @license eZ Proprietary Extension License (PEL), Version 1.3
+# @version 1.3-1
+#
+##
+
+================================
+eZ Accelerator extension INSTALL
+================================
+
+
+**Author**: Sébastien Morel - Novactive
+
+**Last Changes** :  
+**More informations** : s.morel@novactive.com,contact@novactive.com, morel.seb@gmail.com
+
+
+Requirements
+============
+
+* eZ Publish 4.5+
+* PHP 5.3+
+* MySQL 5+
+* Varnish 3+
+* ViewCache = enabled
+
+Installation
+============
+
+Extension
+---------
+
+- Unzip the archive and place the **ezaccelerator** folder in the *extension* folder extension of your eZ Publish instance.
+- Active ezaccelerator extension in setting/override/site.ini.append.php
+
+::
+
+[ExtensionSettings]
+ActiveExtensions[]=ezaccelerator
+
+- Regenerate autoloads
+
+::
+
+$ php bin/php/ezpgenerateautoloads.php -e
+
+- Run the query located in the *sql/mysql* directory
+mysql  EZACCELERATOR < extension/ezaccelerator/sql/mysql/schema.sql 
+
+- Call {varnish-init($module_result)} in our pagelayout
+
+- You must have the ViewCaching set to enabled
+
+- Configure your ezaccelerator.ini
+
+Edit the extension/ezaccelerator/settings/ezaccelerator.ini
+You have to set your varnish server informations
+
+This example set 2 varnish servers
+You have to set the HTTPPort, the BANPort (for the console access) and the IP address
+
+[VarnishServerList]
+Servers[]
+Servers[]=varnish1
+Servers[]=varnish2
+
+[ServerSettings_varnish1]
+Host=10.0.1.2
+HTTPPort=8080
+BANPort=6082
+BANTimeOut=10
+
+[ServerSettings_varnish2]
+Host=10.0.1.3
+HTTPPort=8080
+BANPort=6082
+BANTimeOut=10
+
+- Cluster Configuration :
+Depending you cluster configuration you have to set on on the 3 cluster mode
+	- eZAcceleratorDFSFileHandler
+	- eZAcceleratorDBFileHandler
+	- eZAcceleratorFS2FileHandler
+	
+Note: This change allow eZ Accelerator to handle StaleCache in Varnish
+
+- Clear INI cache
+
+
+Daemon
+------
+
+In order to purge Varnish caches, this extension uses a daemon that MUST be used.
+
+**NOTE**: This daemon isn't a SPOF, if it's not running then only Varnish's TTL will flush the cache.
+
+Manual execution
+''''''''''''''''
+The daemon can be started manually by running the following, as your webserver user::
+
+$ php extension/ezaccelerator/bin/php/ezacceleratorasynchronouscleaner.php
+
+The script will run interactively. To start it in daemon mode (so that it actually detaches from the current session and 
+will keep running even if you log out), the -n flag can be added::
+
+$ php extension/ezaccelerator/bin/php/ezacceleratorasynchronouscleaner.php -n
+
+init scripts
+''''''''''''
+This is the method that we recommend on production. Standard init.d scripts for debian are provided, and can 
+be used to have the daemon started on boot.
+
+First, the startup script for your system must be *linked* to your init.d folder. This is an example for debian::
+
+    cd /etc/init.d
+    ln -s extension/ezaccelerator/bin/startup/debian/ezacceleratorasynchronouspurger .
+    chmod +x ./ezacceleratorasynchronouspurger
+
+The daemon can therefore be started using::
+
+    /etc/init.d/ezacceleratorasynchronouspurger start
+
+It can also be stopped or restarted using the same script, by replacing start with stop or restart.
+
+Settings
+''''''''
+The init scripts come with default settings that should match most platforms. If for some reason, your webserver user
+isn't the platform's default and/or if your PHP CLI executable isn't part of your webserver user's PATH, you can 
+customize these.
+
+First, copy the default configuration file for your platform to the correct directory for your OS::
+Debian: /etc/default/ezacceleratorasynchronouspurger.conf
+
+Example for Debian::
+    $ cp extension/ezaccelerator/bin/startup/debian/ezacceleratorasynchronouspurger.defaults  /etc/default/ezacceleratorasynchronouspurger.conf
+
+Then edit this file, uncommenting and set the required variables to the required values as according to the comments
+in the settings file.
+
+Varnish
+-------
+
+The configuration files located in the *ressources/varnish* directory represent the Varnish configuration
+
+- *varnish* : Varnish daemon configuration file.
+- *ezpublish.vcl* : Varnish configuration file with the management rules.
+

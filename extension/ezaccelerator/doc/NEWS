@@ -1,0 +1,46 @@
+###
+#
+# @author Sebastien Morel <s.morel@novactive.com>
+# @copyright Copyright 2011 (c) Novactive. All rights reserved.
+# @license eZ Proprietary Extension License (PEL), Version 1.3
+# @version 1.3-1
+#
+##
+
+=============================
+eZ Accelerator extension NEWS
+=============================
+
+-------
+History
+-------
+
+v1.3 (01.10.2011)
+-----------------
+- Compatibility and migration to Varnish 3
+- Removing of statistic features due to Varnish 3 
+	- In Varnish 3, the "stats" command no longer exists
+- Rename eZ Nova Rnish to eZ Accelerator
+- PHP docs
+- Replacing the purge system on BAN console to the HTTP protocol for more velocity
+- Restructuring of extension subtree for eZ Market certification
+- Default Varnish Error page override
+
+v1.2 (30.07.2011)
+-----------------
+- Refactoring of the core system for the 4.5
+	- Removing kernel Overrides
+	- Using the new system of Event Dispatching
+	- 3 cluster subclasses to manage the StaleCache (possible since useStaleCache variable is no longer private)
+- Added a daemon to asynchronously clear varnish
+	- daemon php
+	-  Debian startup script
+- Statistics 
+	- Real Time (Hits Misses, Memory)
+	- Historical (via a cronjob)	
+	
+v1.1 (15.06.2011)
+-----------------
+- System url purge refactoring, now, we flag all pages with a node_id header in Varnish, and the Varnish purge is made on the node_id header.
+- Add a template operator to add the header
+

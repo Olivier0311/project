@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+.clear {
+	clear:both;
+}
+.float_right {
+	float:right;
+}
+#varnish-purgeterm p, #varnish-purgeterm ul {
+	clear:both;
+	display:block;
+}
+
+#varnish-purgeterm p label {
+	float:left;
+	display:block;
+	}
+	
+	
+#varnish-purgeterm p input {
+	float:left;
+	display:block;
+	}
+
+#varnish-purgeterm ul li {
+ 	list-style:none;
+	}
+	#varnish-purgeterm ul li input {
+		float:left;
+	}
+ 
+#varnish-purgeterm fieldset {
+	clear:both;
+	}
+	
+	
+div.ezaccelerator-ajax_result,.termresultdetails {
+	display:none;
+}
+
+
+.ezaccelerator-ajax_result pre {
+	overflow:auto;
+}
+
+.varnish-controls-tabs div.tab-content {
+	height:40em;
+}
