@@ -9,7 +9,6 @@ ActiveExtensions[]=ezoe
 ActiveExtensions[]=ezprestapiprovider
 ActiveExtensions[]=ezfind
 ActiveExtensions[]=ezscriptmonitor
-ActiveExtensions[]=ezaccelerator
 
 [Session]
 SessionNameHandler=custom
