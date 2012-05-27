@@ -22,6 +22,10 @@
         <source>Preview of &amp;lt;%name&amp;gt; in siteaccess</source>
         <translation>Prévisualisation de &amp;lt;%name&amp;gt; dans le siteacces</translation>
     </message>
+    <message>
+        <source>&lt;strong&gt;Warning:&lt;/strong&gt; &lt;em&gt;following links from the preview will take you to the live version of the website&lt;/em&gt;</source>
+        <translation>&lt;strong&gt;Attention :&lt;/strong&gt; &lt;em&gt;cliquer sur les liens de l&apos;aperçu vous redirigera sur le site Internet&lt;/em&gt;</translation>
+    </message>
 </context>
 <context>
     <name>design/admin2/preview</name>

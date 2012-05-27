@@ -4,7 +4,7 @@
  *
  * @copyright Copyright (C) 1999-2012 eZ Systems AS. All rights reserved.
  * @license http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
- * @version  2012.3
+ * @version  2012.4
  * @package kernel
  */
 
@@ -999,7 +999,7 @@ class eZDFSFileHandler implements eZClusterFileHandlerInterface, ezpDatabaseBase
         }
         $commonPath = eZDBFileHandler::cleanPath( $commonPath );
         $commonSuffix = eZDBFileHandler::cleanPath( $commonSuffix );
-        eZDebugSetting::writeDebug( 'kernel-clustering', "dfs::fileDeleteByDirList( '$dirList', '$commonPath', '$commonSuffix' )" );
+        eZDebugSetting::writeDebug( 'kernel-clustering', "dfs::fileDeleteByDirList( '" . join( ", ", $dirList ) . "', '$commonPath', '$commonSuffix' )" );
 
         self::$dbbackend->_deleteByDirList( $dirList, $commonPath, $commonSuffix );
     }

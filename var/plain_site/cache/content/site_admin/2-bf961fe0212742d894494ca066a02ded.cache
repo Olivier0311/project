@@ -1,0 +1,661 @@
+a:10:{s:7:"content";s:26353:"<div class="content-view-full">
+ <div class="class-folder">
+
+<div class="content-navigation">
+
+
+<div class="context-block">
+
+<div class="box-header">
+
+
+<h1 class="context-title"><a href="/ezpublish/index.php/site_admin/class/view/1" onclick="ezpopmenu_showTopLevel( event, 'ClassMenu', ez_createAArray( new Array( '%classID%', 1, '%objectID%', 1, '%nodeID%', 2, '%currentURL%', '', '%languages%', [{'locale':'fre-FR','name':'Fran\u00e7ais (France)'}] ) ), 'Folder', ['class-createnodefeed', 'class-removenodefeed'], 'edit-class-another-language' ); return false;"><img class="transparent-png-icon" src="/ezpublish/share/icons/crystal-admin/32x32/filesystems/folder.png" width="32" height="32" alt="Folder" title="Folder" /></a>&nbsp;eZ Publish&nbsp;[Folder]&nbsp;</h1>
+
+<div class="header-mainline"></div>
+
+</div>
+
+
+<div class="box-content">
+
+<div class="context-information">
+<p class="left modified">Dernière modification: 25/03/2011 18:17, <a href="/ezpublish/index.php/site_admin/Users/Administrator-users/Administrator-User">Administrator User</a> (ID du Nœud : 2, ID de l'objet : 1)</p>
+<p class="right translation">French (France)&nbsp;<img src="/ezpublish/share/icons/flags/fre-FR.gif" width="18" height="12" alt="" style="vertical-align: middle;" /></p>
+<div class="break"></div>
+</div>
+
+<div id="window-controls" class="tab-block">
+                            <div class="button-left"><a id="maincontent-hide" class="show-hide-tabs" href="/ezpublish/index.php/site_admin/user/preferences/set/admin_navigation_content/0" title="Désactiver les &quot;onglets&quot; par défaut lorsque vous parcourez le contenu.">-</a></div>
+<ul class="tabs tabs-by-cookie">
+    
+    <li id="node-tab-view" class="first selected">
+                    <a href="/ezpublish/index.php/site_admin/(tab)/view" title="Afficher une vue simplifiée du contenu.">Aperçu</a>
+            </li>
+
+    
+    <li id="node-tab-details" class="middle">
+                    <a href="/ezpublish/index.php/site_admin/(tab)/details" title="Afficher les détails.">Détails</a>
+            </li>
+
+    
+    
+    
+    <li id="node-tab-locations" class="middle">
+                    <a href="/ezpublish/index.php/site_admin/(tab)/locations" title="Afficher les emplacements.">Emplacements (1)</a>
+            </li>
+
+    
+    <li id="node-tab-relations" class="middle">
+                    <a href="/ezpublish/index.php/site_admin/(tab)/relations" title="Afficher les relations d'objet.">Relations (0)</a>
+            </li>
+
+    
+    <li id="node-tab-ordering" class="last">
+                    <a href="/ezpublish/index.php/site_admin/(tab)/ordering" title="Afficher le tri utilisé pour les sous-éléments.">Classement</a>
+            </li>
+            </ul>
+<div class="float-break"></div>
+<div class="tabs-content">
+    
+<div id="node-tab-view-content" class="tab-content selected">
+    
+    
+<div class="content-view-full">
+    <div class="class-folder">
+
+        <h1>Welcome to eZ Publish</h1>
+
+        
+                    <div class="attribute-short">
+                
+<p>This is eZ plain site package with a limited setup of the eZ Publish functionality. For a full blown eZ Publish please chose the Website Interface or the eZ Flow site package at the installation.</p>            </div>
+        
+        
+                    <div class="attribute-long">
+                
+<p>eZ Publish is a popular open source content management system and development framework. It allows the development of professional, customized and dynamic web solutions. It can be used to build anything from a personal homepage to a multinational corporate website with role based multiuser access, online shopping, discussion forums and other advanced functionality. In addition, because of its open nature, eZ Publish can easily be plugged into, communicate and coexist with existing IT-solutions.</p><a name="eztoc104_1" id="eztoc104_1"></a><h2>Documentation and guidance</h2><p>The <a href="http://doc.ez.no/" target="_blank">eZ Publish documentation</a> covers common topics related to the setup and daily use of the eZ Publish content management system/framework. In addition, it also covers some advanced topics. People who are unfamiliar with eZ Publish should at least read the &quot;eZ Publish basics&quot; chapter.</p><p>If you're unable to find an answer/solution to a specific question/problem within the documentation pages, you should make use of the official <a href="http://ez.no/community/forum" target="_blank">eZ Publish forum</a>. People who need professional help should purchase <a href="http://ez.no/eZPublish/eZ-Publish-Enterprise-Subscription/Support-Services" target="_blank">support</a> or <a href="http://ez.no/Requests/Contact-Sales" target="_blank">consulting</a> services. It is also possible to sign up for various <a href="http://ez.no/eZPublish/Training-and-Certification" target="_blank">training sessions</a>.</p><p>For more information about eZ Publish and other products/services from eZ Systems, please visit <a href="http://ez.no" target="_blank">ez.no</a>.</p><a name="eztoc104_2" id="eztoc104_2"></a><h2>Tutorials</h2><a name="eztoc104_2_1" id="eztoc104_2_1"></a><h3><b>New users</b></h3>
+<ul>
+
+<li><a href="http://ez.no/Demos-videos/eZ-Publish-Administration-Interface-Video-Tutorial" id="internal-source-marker_0.15448186383582652" target="_blank">eZ Publish Administration Interface</a></li>
+
+<li><a href="http://ez.no/Demos-videos/eZ-Publish-Online-Editor-Video-Tutorial" target="_blank">eZ Publish Online Editor Video</a></li>
+
+<li><a href="http://ez.no/Demos-videos/eZ-Flow-Video-Tutorial" id="internal-source-marker_0.15448186383582652" target="_blank">eZ Flow Video Tutorial</a></li>
+
+</ul>
+<a name="eztoc104_2_2" id="eztoc104_2_2"></a><h3>Experienced users</h3>
+<ul>
+
+<li><a href="http://share.ez.no/learn/ez-publish/an-introduction-to-developing-ez-publish-extensions" target="_blank">How to develop eZ Publish Extensions</a></li>
+
+<li><a href="http://share.ez.no/learn/ez-publish/creating-a-simple-custom-workflow-event" id="internal-source-marker_0.15448186383582652" target="_blank">How to create custom workflow</a></li>
+
+<li><a href="http://www.slideshare.net/ezcommunity/ole-marius-smestad-rest-api-how-to-turn-ez-publish-into-a-multichannel-machine" target="_blank">How to use REST API interface</a></li>
+
+<li><a href="http://www.slideshare.net/BertrandDunogier/presentation-winter-conference-2011-e-z-asynchronous-publishing" target="_blank">Asynchronous publishing</a></li>
+
+<li><a href="http://doc.ez.no/eZ-Publish/Upgrading/Upgrading-to-4.5" id="internal-source-marker_0.15448186383582652" target="_blank">Upgrading to 4.5</a></li>
+
+</ul>
+<p>Find more&nbsp;<a href="http://share.ez.no/learn" target="_blank">tutorials</a>&nbsp;and&nbsp;<a href="http://ez.no/Demos-videos" target="_blank">videos</a> online.</p>            </div>
+        
+        
+        <div class="content-control">
+            <h6>Voir les nœuds fils:</h6>
+                            <p>Non</p>
+                    </div>
+
+    </div>
+</div>
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-details-content" class="tab-content hide">
+    <div class="block">
+
+
+<table class="list" cellspacing="0" summary="Détail du nœud et de l'objet comme son créateur, sa date de création, la section à laquelle il appartient, nombre de versions et de traductions, ID du nœud et de l'objet.">
+<tr>
+    <th>Créateur</th>
+    <th>Créé</th>
+    <th>Section</th>
+    <th class="tight">Versions</th>
+    <th class="tight">Traductions</th>
+    <th class="tight">ID du Nœud </th>
+    <th class="tight">ID de l'objet </th>
+</tr>
+<tr class="bglight">
+    <td><a href="/ezpublish/index.php/site_admin/Users/Administrator-users/Administrator-User">Administrator User</a></td>
+    <td>06/10/2002 17:19</td>
+    <td><a href="/ezpublish/index.php/site_admin/section/view/1">Standard</a></td>
+    <td class="number" align="right">1</td>
+    <td class="number" align="right">1</td>
+    <td class="number" align="right">2</td>
+    <td class="number" align="right">1</td>
+</tr>
+</table>
+</div>
+
+<div class="block">
+<table class="list" cellspacing="0" summary="ID externe du nœud et ID externe de l'objet">
+    <tr>
+        <th>ID externe du nœud</th>
+        <th>ID externe de l'objet</th>
+    </tr>
+    <tr>
+         <td>f3e90596361e31d496d4026eb624c983</td>
+         <td>9459d3c29e15006e45197295722c7ade</td>
+    </tr>
+</table>
+</div>
+
+<br />
+
+<div class="block">
+<h3>État du contenu</h3>
+
+
+<form name="statesform" method="post" action="/ezpublish/index.php/site_admin/state/assign">
+<input type="hidden" name="ObjectID" value="1" />
+<input type="hidden" name="RedirectRelativeURI" value="" />
+
+<table id="tab-details-states-list" class="list" cellspacing="0" summary="États et groupes d'états du l'objet courant.">    <tr class="bgdark">
+    <td colspan="2">
+    <em>Aucun état d'objet de contenu n'est configuré. Ceci peut être fait <a href="/ezpublish/index.php/site_admin/state/groups"> ici</a>.</em>
+    </td>
+    </tr></table>
+
+<div class="block">
+<div class="button-left">
+        <input type="submit" id="tab-details-set-states" value="Définir les états" name="AssignButton" class="button-disabled" disabled="disabled" title="Aucun état ne peut être appliqué à cet objet de contenu. Vous avez peut-être besoin d'accès plus permissifs."/>
+    </div>
+<div class="break"></div>
+</div>
+
+</form>
+</div>
+<script type="text/javascript">
+
+(function( $ )
+{
+    $('#tab-details-states-list select').change(function()
+    {
+        var btn = $('#tab-details-set-states');
+        if ( !btn.attr('disabled') )
+        {
+            btn.removeClass('button').addClass('defaultbutton');
+        }
+    });
+})( jQuery );
+
+</script>
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-translations-content" class="tab-content hide">
+    
+<form name="translationsform" method="post" action="/ezpublish/index.php/site_admin/content/translation">
+<input type="hidden" name="ContentNodeID" value="2" />
+<input type="hidden" name="ContentObjectID" value="1" />
+<input type="hidden" name="ViewMode" value="full" />
+<input type="hidden" name="ContentObjectLanguageCode" value="" />
+
+<fieldset>
+<legend>Traductions existantes</legend>
+
+<table id="tab-translations-list" class="list" cellspacing="0" summary="Liste des traductions de l'objet courant.">
+<tr>
+    <th class="tight"><img src="/ezpublish/design/admin2/images/toggle-button-16x16.gif" width="16" height="16" alt="Inverser la sélection." title="Inverser la sélection." onclick="ezjs_toggleCheckboxes( document.translationsform, 'LanguageID[]' ); return false;"/></th>
+    <th>Langue</th>
+    <th>Paramètre de localisation</th>
+    <th class="tight">Principal</th>
+    <th class="tight">&nbsp;</th>
+</tr>
+
+<tr class="bglight">
+
+
+<td>
+    <input type="checkbox" name="LanguageID[]" value="2" disabled="disabled" />
+</td>
+
+
+<td>
+<img src="/ezpublish/share/icons/flags/fre-FR.gif" width="18" height="12" alt="fre-FR" />
+&nbsp;<b><a href="/ezpublish/index.php/site_admin/(language)/fre-FR" title="Voir la traduction.">Français (France)</a></b></td>
+
+
+<td>fre-FR</td>
+
+
+<td>
+
+<input type="radio"  checked="checked" class="main-translation-radio main-translation-radio-initial" name="InitialLanguageID" value="2" title="Utilisez ces boutons radio pour sélectionner la langue principale souhaitée." />
+
+</td>
+
+
+<td>
+
+<a href="/ezpublish/index.php/site_admin/content/edit/1/f/fre-FR"><img src="/ezpublish/design/standard/images/edit.gif" width="16" height="16" alt="Modifier en &lt;French (France)&gt;." title="Modifier en &lt;French (France)&gt;." /></a>
+
+</td>
+
+</tr>
+</table>
+
+<div class="block">
+<div class="button-left">        <input class="button-disabled" type="submit" name="RemoveTranslationButton" value="Supprimer la sélection" title="Il n'y a pas de langue à supprimer." disabled="disabled" />
+    </div>
+
+<div class="button-right">        <input class="button-disabled" type="submit" name="UpdateInitialLanguageButton" value="Définir comme principal" disabled="disabled" title="Vous ne pouvez pas changer la langue principale parce que cet objet n'est traduit dans un aucune autre langue." />
+    </div>
+
+<div class="break"></div>
+</div>
+
+</fieldset>
+
+
+<div class="block">
+
+<div class="block">
+<input id="tab-translations-alwaysavailable-checkbox" type="checkbox" name="AlwaysAvailable" value="1" checked="checked" /> Utiliser la langue principale s'il n'existe pas de traduction prioritaire.
+</div>
+
+<div class="block">    <input id="tab-translations-alwaysavailable-btn" class="button" type="submit" name="UpdateAlwaysAvailableButton" value="Mettre à jour" title="Utilisez ce bouton pour sauvegarder la valeur des cases à cocher ci-dessus." />
+    <script type="text/javascript">
+    
+    (function( $ )
+    {
+        $('#tab-translations-alwaysavailable-checkbox').change(function()
+        {
+            $('#tab-translations-alwaysavailable-btn').removeClass('button').addClass('defaultbutton');
+        });
+    })( jQuery );
+    
+    </script></div>
+</div>
+
+
+</form>
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-locations-content" class="tab-content hide">
+    
+<form name="locationsform" method="post" action="/ezpublish/index.php/site_admin/content/action">
+<input type="hidden" name="ContentNodeID" value="2" />
+<input type="hidden" name="ContentObjectID" value="1" />
+<input type="hidden" name="ViewMode" value="full" />
+<input type="hidden" name="ContentObjectLanguageCode" value="" />
+
+<table id="tab-locations-list" class="list" cellspacing="0" summary="Emplacements (ie. nœud) pour l'objet courant.">
+<tr>
+    <th class="tight"><img src="/ezpublish/design/admin2/images/toggle-button-16x16.gif" width="16" height="16" alt="Inverser la sélection." title="Inverser la sélection." onclick="ezjs_toggleCheckboxes( document.locationsform, 'LocationIDSelection[]' ); return false;"/></th>
+    <th class="wide">Emplacement</th>
+    <th class="tight">Sous-éléments</th>
+
+    <th class="tight">Visibilité</th>
+    <th class="tight">Principal</th>
+</tr>    
+<tr class="bglight">
+
+    
+    <td>
+            <input type="checkbox" name="LocationIDSelection[]" value="2" disabled="disabled" title="Cet emplacement ne peut être supprimé soit parce que vous n'avez pas le droit de le supprimer ou parce qu'il est actuellement affiché." />
+        </td>
+
+    
+        <td> <a href="/ezpublish/index.php/site_admin">eZ Publish</a></td>
+    
+
+    
+    <td class="number" align="right">0</td>
+
+    
+
+
+    
+    <td class="nowrap">
+            Visible
+        [ <a href="/ezpublish/index.php/site_admin/content/hide/2" title="Cacher l'emplacement et tous ses sous-éléments." >Masquer</a> ]
+        </td>
+
+    
+    <td>
+
+    
+        <input type="radio" checked="checked" name="MainAssignmentCheck" value="2" disabled="disabled" title="L'élément actuellement affiché n'a qu'un seul emplacement qui est l'emplacement principal." />
+    
+    
+    </td>
+</tr></table>
+
+
+<input type="hidden" name="HasMainAssignment" value="1" />
+
+
+<div class="block">
+<div class="button-left">
+        <input class="button-disabled" type="submit" name="RemoveAssignmentButton" value="Supprimer la sélection" title="Il n'y a pas d'emplacements à supprimer." disabled="disabled" />
+    
+        <input class="button-disabled" type="submit" name="AddAssignmentButton" value="Ajouter des emplacements" title="Il n'est pas possible d'ajouter des emplacements au niveau principal." disabled="disabled" />
+    </div>
+
+<div class="button-right">    <input class="button-disabled" type="submit" name="UpdateMainAssignmentButton" value="Définir comme principal" disabled="disabled" title="Vous ne pouvez définir cet emplacement comme emplacement principal car il n'y a qu'un seul emplacement." /></div>
+
+<div class="break"></div>
+</div>
+
+</form><div class="break"></div>
+</div>
+
+
+<div id="node-tab-relations-content" class="tab-content hide">
+    
+<table class="list" cellspacing="0" summary="Liste des relations pour l'objet courant.">
+<tr>
+    <th>Objets associés (0)</th>
+    </tr>    <tr><td>L'élément actuellement affiché n'utilise aucun autre objet.</td></tr></table>
+
+<br />
+
+
+<table class="list" cellspacing="0" summary="Objets associés par relation inverse avec l'objet courant.">
+<tr>
+    <th>Objets associés par relation inverse (0)</th>
+    </tr>    <tr><td>L'élément actuellement affiché n'est utilisé par aucun autre objet.</td></tr></table>
+
+ 
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-ordering-content" class="tab-content hide">
+    
+<form name="ordering" method="post" action="/ezpublish/index.php/site_admin/content/action">
+<input type="hidden" name="ContentNodeID" value="2" />
+<div class="block">    
+    <fieldset>
+        <legend>Tri</legend>
+    
+            
+                                            <input type="hidden" name="ContentObjectID" value="1" />
+                
+        <div class="block">Utilisez ces contrôles pour modifier la méthode de tri des sous-éléments de l'emplacement actuel.</div>
+        <select id="ezasi-sort-field" name="SortingField" title="Utilisez ces contrôles pour modifier la méthode de tri des sous-éléments de l'emplacement actuel.">
+                    <option value="6" >Identifiant de classe</option>
+                    <option value="7" >Nom de la classe</option>
+                    <option value="5" >Profondeur</option>
+                    <option value="3" >Modifié</option>
+                    <option value="9" >Nom</option>
+                    <option value="1" >Fil d'Ariane (chemin)</option>
+                    <option value="8" selected="selected">Priorité</option>
+                    <option value="2" >Publié</option>
+                    <option value="4" >Section</option>
+                </select>
+    
+        <select id="ezasi-sort-order" name="SortingOrder" title="Utilisez ces contrôles pour modifier la méthode de tri des sous-éléments de l'emplacement actuel.">
+            <option value="0">Décroissant</option>
+            <option value="1" selected="selected">Croissant</option>
+        </select>
+    
+        <input  id="ezasi-sort-set" class="button" type="submit" name="SetSorting" value="Affecter" title="Utilisez ces contrôles pour modifier la méthode de tri des sous-éléments de l'emplacement actuel."  />
+    
+            </fieldset>
+</div>
+</form>
+
+
+
+<script type="text/javascript">
+jQuery('#ezasi-sort-field, #ezasi-sort-order').each( function(){
+    jQuery( this ).attr( 'initial', this.value );
+} ).change(function(){
+    var t = $(this), o = $(this.id === 'ezasi-sort-field' ? '#ezasi-sort-order' : '#ezasi-sort-field'), s = $('#ezasi-sort-set');
+    // signal in gui if user needs to save this or not
+    if ( t.val() === t.attr('initial') && o.val() === o.attr('initial') )
+        s.removeClass('defaultbutton').addClass('button');
+    else
+        s.removeClass('button').addClass('defaultbutton');
+});
+</script>
+
+<div class="break"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="controlbar">
+
+
+<form method="post" action="/ezpublish/index.php/site_admin/content/action">
+<input type="hidden" name="TopLevelNode" value="2" />
+<input type="hidden" name="ContentNodeID" value="2" />
+<input type="hidden" name="ContentObjectID" value="1" />
+
+<div class="button-left">
+<div class='block'>
+                <input name="ContentObjectLanguageCode" value="fre-FR" type="hidden" />
+        <input class="button" type="submit" name="EditButton" value="Modifier" title="Modifier le contenu de cet élément." />
+    <input class="button-disabled" type="submit" name="MoveNodeButton" value="Déplacer" title="Vous n'avez pas le droit de déplacer cet élément vers un autre emplacement." disabled="disabled" />
+    <input class="button-disabled" type="submit" name="ActionRemove" value="Supprimer" title="Vous n'avez pas le droit de supprimer cet élément." disabled="disabled" /></div>
+</div>
+
+<div class="button-right">
+	<p class='versions'>
+    
+    <a href="/ezpublish/index.php/site_admin/content/history/1" title="Afficher et gérer (copier, supprimer, etc.) les versions de cet objet.">Gérer les versions</a>
+    </p>
+</div>
+
+<div class="float-break"></div>
+</form>
+
+</div>
+
+
+</div>
+
+
+<div id="content-view-children">    <div class="content-view-children">
+
+
+
+<!-- Children START -->
+
+<div class="context-block">
+<form name="children" method="post" action="/ezpublish/index.php/site_admin/content/action">
+<input type="hidden" name="ContentNodeID" value="2" />
+<input type="hidden" name="ContentObjectID" value="1" />
+
+
+<div class="box-header">
+
+    <h2 class="context-title"><a href="/ezpublish/index.php/site_admin" title="Monter d'un niveau."><img src="/ezpublish/design/admin2/images/up-16x16-grey.png" width="16" height="16" alt="Monter d'un niveau." title="Monter d'un niveau." /></a>&nbsp;Sous-éléments (0)</h2>
+
+</div>
+
+<div class="box-content">
+
+
+
+<div class="context-toolbar">
+<div class="float-break"></div>
+</div>
+
+    
+    
+    
+    
+    
+    <input type="hidden" name="NodeID" value="2" />
+
+    
+    
+
+<script type="text/javascript">
+(function() {
+
+
+var availableLanguages = {'fre-FR': 'French (France)'};
+
+var icons = {'fre-FR': '/ezpublish/share/icons/flags/fre-FR.gif'};
+
+var vcols = {    ezcontentnavigationpart : 'checkbox;crank;name;published_date;translations;priority'.split(';'),
+    ezmedianavigationpart : 'checkbox;crank;thumbnail;name;hidden_status_string;class_name'.split(';'),
+    ezusernavigationpart : 'checkbox;crank;name;creator;published_date'.split(';')};
+
+var confObj = {
+    sortKey: "priority",
+    dataSourceURL: "/ezpublish/index.php/site_admin/ezjscore/call/ezjscnode::subtree::2",
+    editPrefixURL: "/ezpublish/index.php/site_admin/content/edit",
+    rowsPrPage: 25,
+    sortOrder: 1,
+    nameFilter: '',
+    defaultShownColumns: vcols,
+    navigationPart: "ezcontentnavigationpart",
+    cookieName: "eZSubitemColumns",
+    cookieSecure: false,
+    cookieDomain: "localhost",
+    languages: availableLanguages,
+    classesString: [{"classID":2,"name":"Article"},{"classID":13,"name":"Comment"},{"classID":12,"name":"File"},{"classID":1,"name":"Folder"},{"classID":5,"name":"Image"},{"classID":11,"name":"Link"}],
+    flagIcons: icons
+}
+
+var labelsObj = {
+
+    DATA_TABLE: {
+                        msg_loading: "Chargement ..."
+                    },
+
+    DATA_TABLE_COLS: {
+                        thumbnail: "Miniature",
+                        name: "Nom",
+                        visibility: "Visibilité",
+                        type: "Type",
+                        modifier: "Modificateur",
+                        modified: "Modifié",
+                        published: "Publié",
+                        section: "Section",
+                        translations: "Traductions",
+                        priority: "Priorité",
+                        nodeid: "ID du Nœud ",
+                        objectid: "ID de l\047objet ",
+                        noderemoteid: "ID externe du nœud",
+                        objectremoteid: "ID externe de l\047objet",
+                        objectstate: "État d\047objet"
+                    },
+
+    TABLE_OPTIONS: {
+                        header: "Options du tableau",
+                        header_noipp: "Nombre d\047éléments par page :",
+                        header_vtc: "Colonnes visibles :",
+                        button_close: "Fermer"
+                   },
+
+    ACTION_BUTTONS: {
+                        select: "Sélectionner",
+                        select_sav: "Sélectionner tous les éléments visibles",
+                        select_sn: "Tout désélectionner",
+                        select_inv: "Inverser la sélection",
+                        create_new: "Créer un nouvel élément",
+                        more_actions: "Plus d\047actions",
+                        more_actions_rs: "Supprimer la sélection",
+                        more_actions_ms: "Déplacer la sélection",
+                        more_actions_no: "Utilisez les cases à cocher pour sélectionner un ou plusieurs éléments.",
+                        table_options: "Options du tableau",
+                        first_page: "&laquo;&nbsp;premier",
+                        previous_page: "&lsaquo;&nbsp;précédent",
+                        next_page: "suivant&nbsp;&rsaquo;",
+                        last_page: "dernier&nbsp;&raquo;"
+                    }
+};
+                
+    
+    var createGroups = [
+
+            "Content"
+                    ,
+                "Setup"
+                    ,
+                "Media"
+                    ,
+                "Users"
+            
+    ];
+
+    var createOptions = [
+
+            [
+                                { text: "Article", value: 2 }
+                                ,                        { text: "Comment", value: 13 }
+                                ,                        { text: "Folder", value: 1 }
+                                ,                        { text: "Link", value: 11 }
+                                        ]
+                    ,
+                [
+                                { text: "Common ini settings", value: 14 }
+                                ,                        { text: "Template look", value: 15 }
+                                        ]
+                    ,
+                [
+                                { text: "File", value: 12 }
+                                ,                        { text: "Image", value: 5 }
+                                        ]
+                    ,
+                [
+                                { text: "User", value: 4 }
+                                ,                        { text: "User group", value: 3 }
+                                        ]
+                ];
+
+
+YUILoader.require(['datatable', 'button', 'container', 'cookie', 'element']);
+YUILoader.onSuccess = function() {
+    sortableSubitems.init(confObj, labelsObj, createGroups, createOptions);
+};
+var options = [];
+YUILoader.insert(options, 'js');
+
+})();
+</script>
+
+<div id="action-controls-container">
+    <div id="action-controls"></div>
+    <div id="tpg"></div>
+</div>
+<div id="content-sub-items-list" class="content-navigation-childlist"></div>
+<div id="bpg"></div>
+
+<div id="to-dialog-container"></div>
+
+
+
+    <div class="context-toolbar">
+        </div>
+
+</div>
+
+</form>
+
+</div>
+
+
+
+
+<!-- Children END -->
+</div>
+</div>
+
+</div>
+
+ </div>
+</div>";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:1:{i:0;a:4:{s:4:"text";s:10:"eZ Publish";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:1:"2";}}s:10:"title_path";a:1:{i:0;a:3:{s:4:"text";s:10:"eZ Publish";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:1:"2";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:1:"1";s:7:"node_id";s:1:"2";s:14:"parent_node_id";s:1:"1";s:8:"class_id";s:1:"1";s:16:"class_identifier";s:6:"folder";s:9:"remote_id";s:32:"9459d3c29e15006e45197295722c7ade";s:14:"node_remote_id";s:32:"f3e90596361e31d496d4026eb624c983";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"1";s:9:"url_alias";s:0:"";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:1:"2";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";a:1:{s:8:"js_files";a:3:{i:0;s:12:"node_tabs.js";i:1;s:11:"ezjsc::yui2";i:2;s:27:"ezajaxsubitems_datatable.js";}}s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:1:"1";s:23:"parent_class_identifier";s:6:"folder";s:21:"parent_node_remote_id";s:32:"629709ba256fe317c3ddcee35453a96a";s:23:"parent_object_remote_id";s:32:"4a7193aa5239bbf4e3750efe5141dd93";}s:13:"template_list";a:24:{i:0;s:42:"design/admin2/templates/node/view/full.tpl";i:1;s:53:"design/admin2/templates/infocollection_validation.tpl";i:2;s:43:"design/admin2/templates/window_controls.tpl";i:3;s:53:"design/admin2/templates/window_controls_extratabs.tpl";i:4;s:35:"design/admin2/templates/windows.tpl";i:5;s:35:"design/admin2/templates/preview.tpl";i:6;s:57:"design/admin2/override/templates/admin_preview/folder.tpl";i:7;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:8;s:71:"design/standard/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:11;s:68:"design/standard/templates/content/datatype/view/ezxmltags/header.tpl";i:12;s:66:"design/standard/templates/content/datatype/view/ezxmltags/link.tpl";i:22;s:68:"design/standard/templates/content/datatype/view/ezxmltags/strong.tpl";i:25;s:64:"design/standard/templates/content/datatype/view/ezxmltags/li.tpl";i:30;s:64:"design/standard/templates/content/datatype/view/ezxmltags/ul.tpl";i:46;s:35:"design/admin2/templates/details.tpl";i:47;s:40:"design/admin2/templates/translations.tpl";i:48;s:37:"design/admin2/templates/locations.tpl";i:49;s:37:"design/admin2/templates/relations.tpl";i:50;s:44:"design/admin2/templates/navigator/google.tpl";i:51;s:36:"design/admin2/templates/ordering.tpl";i:52;s:45:"design/admin2/templates/windows_extratabs.tpl";i:53;s:36:"design/admin2/templates/children.tpl";i:54;s:45:"design/admin2/templates/children_detailed.tpl";i:55;s:50:"design/admin2/templates/navigator/alphabetical.tpl";}s:9:"cache_ttl";i:-1;}

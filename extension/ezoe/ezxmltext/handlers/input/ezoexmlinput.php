@@ -5,7 +5,7 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Publish Community Project
-// SOFTWARE RELEASE:  2012.3
+// SOFTWARE RELEASE:  2012.4
 // COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2
 // NOTICE: >
@@ -1507,7 +1507,7 @@ class eZOEXMLInput extends eZXMLInputHandler
                         {
                             // tinymce has some issues with empty content in some browsers
                             if ( self::browserSupportsDHTMLType() != 'Trident' )
-                                $cellContent = '<br data-mce-bogus="1" />';
+                                $cellContent = '<p><br data-mce-bogus="1"/></p>';
                         }
                         if ( $tableCell->nodeName === 'th' )
                         {

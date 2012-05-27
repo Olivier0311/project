@@ -2,7 +2,7 @@
 /**
  * @copyright Copyright (C) 1999-2012 eZ Systems AS. All rights reserved.
  * @license http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
- * @version  2012.3
+ * @version  2012.4
  * @package kernel
  */
 
@@ -338,6 +338,8 @@ eZExtension::activateExtensions( 'access' );
 // Now that all extensions are activated and siteaccess has been changed, reset
 // all eZINI instances as they may not take into account siteaccess specific settings.
 eZINI::resetAllInstances( false );
+
+ezpEvent::getInstance()->registerEventListeners();
 
 // Be able to do general events early in process
 ezpEvent::getInstance()->notify( 'request/preinput', array( $uri ) );

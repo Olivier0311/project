@@ -1,0 +1,42 @@
+a:10:{s:7:"content";s:4016:"
+<div class="content-view-full">
+    <div class="class-folder">
+
+        <h1>Welcome to eZ Publish</h1>
+
+                    <div class="attribute-short">
+                
+<p>This is eZ plain site package with a limited setup of the eZ Publish functionality. For a full blown eZ Publish please chose the Website Interface or the eZ Flow site package at the installation.</p>            </div>
+        
+                    <div class="attribute-long">
+                
+<p>eZ Publish is a popular open source content management system and development framework. It allows the development of professional, customized and dynamic web solutions. It can be used to build anything from a personal homepage to a multinational corporate website with role based multiuser access, online shopping, discussion forums and other advanced functionality. In addition, because of its open nature, eZ Publish can easily be plugged into, communicate and coexist with existing IT-solutions.</p><a name="eztoc104_1" id="eztoc104_1"></a><h2>Documentation and guidance</h2><p>The <a href="http://doc.ez.no/" target="_blank">eZ Publish documentation</a> covers common topics related to the setup and daily use of the eZ Publish content management system/framework. In addition, it also covers some advanced topics. People who are unfamiliar with eZ Publish should at least read the &quot;eZ Publish basics&quot; chapter.</p><p>If you're unable to find an answer/solution to a specific question/problem within the documentation pages, you should make use of the official <a href="http://ez.no/community/forum" target="_blank">eZ Publish forum</a>. People who need professional help should purchase <a href="http://ez.no/eZPublish/eZ-Publish-Enterprise-Subscription/Support-Services" target="_blank">support</a> or <a href="http://ez.no/Requests/Contact-Sales" target="_blank">consulting</a> services. It is also possible to sign up for various <a href="http://ez.no/eZPublish/Training-and-Certification" target="_blank">training sessions</a>.</p><p>For more information about eZ Publish and other products/services from eZ Systems, please visit <a href="http://ez.no" target="_blank">ez.no</a>.</p><a name="eztoc104_2" id="eztoc104_2"></a><h2>Tutorials</h2><a name="eztoc104_2_1" id="eztoc104_2_1"></a><h3><b>New users</b></h3>
+<ul>
+
+<li><a href="http://ez.no/Demos-videos/eZ-Publish-Administration-Interface-Video-Tutorial" id="internal-source-marker_0.15448186383582652" target="_blank">eZ Publish Administration Interface</a></li>
+
+<li><a href="http://ez.no/Demos-videos/eZ-Publish-Online-Editor-Video-Tutorial" target="_blank">eZ Publish Online Editor Video</a></li>
+
+<li><a href="http://ez.no/Demos-videos/eZ-Flow-Video-Tutorial" id="internal-source-marker_0.15448186383582652" target="_blank">eZ Flow Video Tutorial</a></li>
+
+</ul>
+<a name="eztoc104_2_2" id="eztoc104_2_2"></a><h3>Experienced users</h3>
+<ul>
+
+<li><a href="http://share.ez.no/learn/ez-publish/an-introduction-to-developing-ez-publish-extensions" target="_blank">How to develop eZ Publish Extensions</a></li>
+
+<li><a href="http://share.ez.no/learn/ez-publish/creating-a-simple-custom-workflow-event" id="internal-source-marker_0.15448186383582652" target="_blank">How to create custom workflow</a></li>
+
+<li><a href="http://www.slideshare.net/ezcommunity/ole-marius-smestad-rest-api-how-to-turn-ez-publish-into-a-multichannel-machine" target="_blank">How to use REST API interface</a></li>
+
+<li><a href="http://www.slideshare.net/BertrandDunogier/presentation-winter-conference-2011-e-z-asynchronous-publishing" target="_blank">Asynchronous publishing</a></li>
+
+<li><a href="http://doc.ez.no/eZ-Publish/Upgrading/Upgrading-to-4.5" id="internal-source-marker_0.15448186383582652" target="_blank">Upgrading to 4.5</a></li>
+
+</ul>
+<p>Find more&nbsp;<a href="http://share.ez.no/learn" target="_blank">tutorials</a>&nbsp;and&nbsp;<a href="http://ez.no/Demos-videos" target="_blank">videos</a> online.</p>            </div>
+        
+                        
+    </div>
+</div>
+";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:1:{i:0;a:4:{s:4:"text";s:10:"eZ Publish";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:1:"2";}}s:10:"title_path";a:1:{i:0;a:3:{s:4:"text";s:10:"eZ Publish";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:1:"2";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:1:"1";s:7:"node_id";s:1:"2";s:14:"parent_node_id";s:1:"1";s:8:"class_id";s:1:"1";s:16:"class_identifier";s:6:"folder";s:9:"remote_id";s:32:"9459d3c29e15006e45197295722c7ade";s:14:"node_remote_id";s:32:"f3e90596361e31d496d4026eb624c983";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"1";s:9:"url_alias";s:0:"";s:16:"current_language";s:6:"fre-FR";s:13:"language_mask";s:1:"3";s:12:"main_node_id";s:1:"2";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";b:0;s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:1:"1";s:23:"parent_class_identifier";s:6:"folder";s:21:"parent_node_remote_id";s:32:"629709ba256fe317c3ddcee35453a96a";s:23:"parent_object_remote_id";s:32:"b837b221d66be8772dfac025ba7c9bf1";}s:13:"template_list";a:8:{i:0;s:46:"design/base/override/templates/full/folder.tpl";i:1;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:2;s:71:"design/standard/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:5;s:68:"design/standard/templates/content/datatype/view/ezxmltags/header.tpl";i:6;s:66:"design/standard/templates/content/datatype/view/ezxmltags/link.tpl";i:16;s:68:"design/standard/templates/content/datatype/view/ezxmltags/strong.tpl";i:19;s:64:"design/standard/templates/content/datatype/view/ezxmltags/li.tpl";i:24;s:64:"design/standard/templates/content/datatype/view/ezxmltags/ul.tpl";}s:9:"cache_ttl";i:-1;}

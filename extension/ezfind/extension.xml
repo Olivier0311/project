@@ -2,7 +2,7 @@
 <software>
     <metadata>
         <name>eZ Find</name>
-        <version>2.7.0-beta1</version>
+        <version>2.7.0-rc1</version>
         <copyright>Copyright (C) 1999-2012 eZ Systems AS.</copyright>
         <license>GNU General Public License v2</license>
         <info_url>http://ez.no/ezfind</info_url>

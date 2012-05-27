@@ -2,7 +2,7 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Publish Community Project
-// SOFTWARE RELEASE:  2012.3
+// SOFTWARE RELEASE:  2012.4
 // COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // EXTENDED COPYRIGHT NOTICE :
 //      Part of this class was inspired from the following contributors' work :
@@ -433,6 +433,7 @@ class eZSolr implements ezpSearchEngine
         }
 
         $mainNodePathArray = $mainNode->attribute( 'path_array' );
+        $mainNodeID = $mainNode->attribute( 'node_id' );
         // initialize array of parent node path ids, needed for multivalued path field and subtree filters
         $nodePathArray = array();
 
@@ -447,9 +448,10 @@ class eZSolr implements ezpSearchEngine
         $nodeAttributeValues = array();
         foreach ( $contentObject->attribute( 'assigned_nodes' ) as $contentNode )
         {
+            $nodeID = $contentNode->attribute( 'node_id' );
             foreach ( eZSolr::nodeAttributes() as $attributeName => $fieldType )
             {
-                $nodeAttributeValues[] = array( 'name' => $attributeName,
+                $nodeAttributeValues[$nodeID][] = array( 'name' => $attributeName,
                                                 'value' => $contentNode->attribute( $attributeName ),
                                                 'fieldType' => $fieldType );
             }
@@ -545,11 +547,24 @@ class eZSolr implements ezpSearchEngine
             }
 
             // Set content node meta attribute values.
-            foreach ( $nodeAttributeValues as $metaInfo )
+            foreach ( $nodeAttributeValues as $nodeID => $metaInfoArray )
             {
-                $doc->addField( ezfSolrDocumentFieldBase::generateMetaFieldName( $metaInfo['name'] ),
+                foreach( $metaInfoArray as $metaInfo)
+                {
+                    $doc->addField( ezfSolrDocumentFieldBase::generateMetaFieldName( $metaInfo['name'] ),
                                 ezfSolrDocumentFieldBase::preProcessValue( $metaInfo['value'], $metaInfo['fieldType'] ) );
+                }
             }
+
+            // Main node gets single valued fields for sorting, using a dedicated prefix
+            foreach ( $nodeAttributeValues[$mainNodeID] as $metaInfo )
+            {
+                $fieldName = 'main_node_' . ezfSolrDocumentFieldBase::generateMetaFieldName( $metaInfo['name'] );
+                $doc->addField( $fieldName,
+                                    ezfSolrDocumentFieldBase::preProcessValue( $metaInfo['value'],
+                                    $metaInfo['fieldType'] ) );
+            }
+
 
             // Add main url_alias
             $doc->addField( ezfSolrDocumentFieldBase::generateMetaFieldName( 'main_url_alias' ), $mainNode->attribute( 'url_alias' ) );

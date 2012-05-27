@@ -4,7 +4,7 @@
  *
  * @copyright Copyright (C) 1999-2012 eZ Systems AS. All rights reserved.
  * @license http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
- * @version  2012.3
+ * @version  2012.4
  * @package kernel
  *
  */
@@ -18,14 +18,6 @@ return array(
       'PSpellShell'                         => 'extension/ezoe/modules/ezoe/classes/PSpellShell.php',
       'ReCaptchaResponse'                   => 'extension/ezcomments/classes/recaptchalib.php',
       'SpellChecker'                        => 'extension/ezoe/modules/ezoe/classes/SpellChecker.php',
-      'eZAccelerator'                       => 'extension/ezaccelerator/classes/ezaccelerator.php',
-      'eZAcceleratorDBFileHandler'          => 'extension/ezaccelerator/kernel_subclasses/ezacceleratordbfilehandler.php',
-      'eZAcceleratorDFSFileHandler'         => 'extension/ezaccelerator/kernel_subclasses/ezacceleratordfsfilehandler.php',
-      'eZAcceleratorFS2FileHandler'         => 'extension/ezaccelerator/kernel_subclasses/ezacceleratorfs2filehandler.php',
-      'eZAcceleratorManager'                => 'extension/ezaccelerator/classes/ezacceleratormanager.php',
-      'eZAcceleratorPurgingQueueProcessor'  => 'extension/ezaccelerator/classes/ezacceleratorpurgingqueueprocessor.php',
-      'eZAcceleratorQueueObject'            => 'extension/ezaccelerator/classes/db/ezacceleratorqueueobject.php',
-      'eZAcceleratorUtils'                  => 'extension/ezaccelerator/autoloads/ezacceleratorutils.php',
       'eZContentClassEditDeferredHandler'   => 'extension/ezscriptmonitor/classes/ezcontentclasseditdeferredhandler.php',
       'eZFindElevateConfiguration'          => 'extension/ezfind/classes/ezfindelevateconfiguration.php',
       'eZFindInfo'                          => 'extension/ezfind/ezinfo.php',
@@ -73,7 +65,6 @@ return array(
       'eZTagsObject'                        => 'extension/eztags/classes/eztagsobject.php',
       'eZTagsTemplateFunctions'             => 'extension/eztags/autoloads/eztagstemplatefunctions.php',
       'eZTagsType'                          => 'extension/eztags/datatypes/eztags/eztagstype.php',
-      'ezacceleratorInfo'                   => 'extension/ezaccelerator/ezinfo.php',
       'ezauthorSolrStorage'                 => 'extension/ezfind/classes/solrstorage/ezauthorsolrstorage.php',
       'ezbinaryfileSolrStorage'             => 'extension/ezfind/classes/solrstorage/ezbinaryfilesolrstorage.php',
       'ezcomAddCommentTool'                 => 'extension/ezcomments/classes/ezcomaddcommenttool.php',
@@ -140,7 +131,6 @@ return array(
       'ezjscServerFunctionsJs'              => 'extension/ezjscore/classes/ezjscserverfunctionsjs.php',
       'ezjscServerFunctionsNode'            => 'extension/ezjscore/classes/ezjscserverfunctionsnode.php',
       'ezjscServerFunctionsPublishingQueue' => 'extension/ezjscore/classes/ezjscserverfunctionspublishingqueue.php',
-      'ezjscServerRemoveInVarnish'          => 'extension/ezaccelerator/classes/ezjsc/ezjscserverremoveinvarnish.php',
       'ezjscServerRouter'                   => 'extension/ezjscore/classes/ezjscserverrouter.php',
       'ezjscoreTagsSuggest'                 => 'extension/eztags/classes/ezjscoretagssuggest.php',
       'ezkeywordSolrStorage'                => 'extension/ezfind/classes/solrstorage/ezkeywordsolrstorage.php',

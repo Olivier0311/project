@@ -2,7 +2,7 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Publish Community Project
-// SOFTWARE RELEASE:  2012.3
+// SOFTWARE RELEASE:  2012.4
 // COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2
 // NOTICE: >
@@ -27,7 +27,7 @@ class ezodfInfo
     static function info()
     {
         return array( 'Name' => 'eZ OpenOffice.org extension',
-                      'Version' => '2.8.0-beta1',
+                      'Version' => '2.8.0-rc1',
                       'Copyright' => 'Copyright (C) 1999-2012 eZ Systems AS',
                       'License' => 'GNU General Public License v2',
                       );

@@ -4,7 +4,7 @@
  *
  * @copyright Copyright (C) 1999-2012 eZ Systems AS. All rights reserved.
  * @license http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
- * @version  2012.3
+ * @version  2012.4
  * @package kernel
  */
 
@@ -237,9 +237,9 @@ class eZContentObjectTrashNode extends eZContentObjectTreeNode
                         $sortingInfo[attributeTargetSQL] ";
         }
         $query .= "FROM
-                        ezcontentobject_trash ezcot,
-                        ezcontentobject,
-                        ezcontentclass
+                        ezcontentobject_trash ezcot
+                        INNER JOIN ezcontentobject
+                        INNER JOIN ezcontentclass
                         $versionNameTables
                         $sortingInfo[attributeFromSQL]
                         $attributeFilter[from]

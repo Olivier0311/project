@@ -1,0 +1,96 @@
+
+                
+    <title>Ouverture de session / Utilisateur - Site</title>
+
+    
+    
+    
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+            <meta http-equiv="Content-language" content="fr-FR" />
+
+    
+        <meta name="author" content="eZ Systems" />
+
+        <meta name="copyright" content="eZ Systems" />
+
+        <meta name="description" content="Content Management System" />
+
+        <meta name="keywords" content="cms, publish, e-commerce, content management, development framework" />
+
+    
+    <meta name="generator" content="eZ Publish" />
+    
+
+<link rel="Home" href="/ezpublish/index.php/site_admin" title="Page de garde Site" />
+<link rel="Index" href="/ezpublish/index.php/site_admin" />
+<link rel="Top"  href="/ezpublish/index.php/site_admin" title="Ouverture de session / Utilisateur - Site" />
+<link rel="Search" href="/ezpublish/index.php/site_admin/content/advancedsearch" title="Recherche Site" />
+<link rel="Shortcut icon" href="/ezpublish/design/standard/images/favicon.ico" type="image/x-icon" />
+<link rel="Copyright" href="/ezpublish/index.php/site_admin/ezinfo/copyright" />
+<link rel="Author" href="/ezpublish/index.php/site_admin/ezinfo/about" />
+
+<script type="text/javascript">
+(function() {
+    var head = document.getElementsByTagName('head')[0];
+    var printNode = document.createElement('link');
+    printNode.rel = 'Alternate';
+    printNode.href = "/ezpublish/index.php/site_admin/layout/set/print" + document.location.search;
+    printNode.media = 'print';
+    printNode.title = "Version imprimable";
+    head.appendChild(printNode);
+})();
+</script>
+
+        
+      <link rel="stylesheet" type="text/css" href="/ezpublish/var/plain_site/cache/public/stylesheets/c5d130222426cb4e5b61391532deac48_all.css" />
+
+  
+  
+
+<!--[if lt IE 8]>
+<style>
+/* Terminate floating elements flow in IE < 8 */
+.float-break
+{
+  height: 1%;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+#controlbar-top .box-bc
+{
+  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=180, Strength=8);
+  zoom: 1;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style>
+#controlbar-top .box-bc
+{
+padding-bottom:8px;
+}
+</style>
+<![endif]-->
+<!--[if IE 6]>
+<style>
+.yui3-js-enabled .scroll-to-top {display: none;}
+input.box, textarea.box {width: 99%}
+</style>
+<![endif]-->
+
+
+  <script type="text/javascript" src="/ezpublish/var/plain_site/cache/public/javascript/b0f0666743009588aea61bf368adc144.js" charset="utf-8"></script>
+
+</head>
+
+<body class="loginpage">
+
+<div id="page" class="ezcontentnavigationpart section_id_0">
+<div id="header">
+<div id="header-design" class="float-break">
+
+</div>
+</div>

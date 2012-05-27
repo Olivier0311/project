@@ -2,7 +2,7 @@
 //
 // ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 // SOFTWARE NAME: eZ Publish Community Project
-// SOFTWARE RELEASE:  2012.3
+// SOFTWARE RELEASE:  2012.4
 // COPYRIGHT NOTICE: Copyright (C) 1999-2012 eZ Systems AS
 // SOFTWARE LICENSE: GNU General Public License v2
 // NOTICE: >
@@ -37,7 +37,7 @@ class eZScriptMonitorInfo
     {
         return array(
             'Name' => "eZ Script Monitor",
-            'Version' => '1.4.0-beta1',
+            'Version' => '1.4.0-rc1',
             'Copyright' => "Copyright (C) 1999-2012 eZ Systems AS.",
             'Info_url' => "http://ez.no/",
             'License' => "GNU General Public License v2.0");

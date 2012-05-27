@@ -4,7 +4,7 @@
  *
  * @copyright Copyright (C) 1999-2012 eZ Systems AS. All rights reserved.
  * @license http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
- * @version  2012.3
+ * @version  2012.4
  * @package lib
  */
 
@@ -166,7 +166,6 @@ class eZModuleOperationInfo
             if ( $mementoData === null )
             {
                 $keyArray = $this->makeOperationKeyArray( $operationDefinition, $operationParameters );
-                $http = eZHTTPTool::instance();
                 $mainMemento = null;
                 if ( $this->UseTriggers )
                     $mainMemento = eZOperationMemento::fetchMain( $keyArray );
@@ -648,7 +647,6 @@ class eZModuleOperationInfo
         if ( $this->Memento === null )
         {
             $keyArray = $this->makeKeyArray( $operationKeys, $operationParameterDefinitions, $operationParameters );
-            $http = eZHTTPTool::instance();
             $mementoData['loop_run'] = $bodyCallCount['loop_run'];
             $memento = eZOperationMemento::create( $keyArray, $mementoData, true );
             $this->Memento = $memento;
