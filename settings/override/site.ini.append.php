@@ -1,15 +1,28 @@
 <?php /* #?ini charset="utf-8"?
 
+[DatabaseSettings]
+DatabaseImplementation=ezmysqli
+Server=localhost
+Port=
+User=ezpublish
+Password=e7publ1sh
+Database=ezpublish
+Charset=
+Socket=disabled
+
 [ExtensionSettings]
 ActiveExtensions[]
-ActiveExtensions[]=ezmultiupload
-ActiveExtensions[]=eztags
+ActiveExtensions[]=custom_extension
 ActiveExtensions[]=ezautosave
-ActiveExtensions[]=ezjscore
+ActiveExtensions[]=ezcomments
+ActiveExtensions[]=ezfind
 ActiveExtensions[]=ezie
+ActiveExtensions[]=ezjscore
+ActiveExtensions[]=ezmultiupload
 ActiveExtensions[]=ezoe
-ActiveExtensions[]=ezodf
 ActiveExtensions[]=ezprestapiprovider
+ActiveExtensions[]=ezscriptmonitor
+ActiveExtensions[]=eztags
 
 [Session]
 SessionNameHandler=custom
@@ -18,11 +31,13 @@ SessionNameHandler=custom
 DefaultAccess=site
 SiteList[]
 SiteList[]=site
+SiteList[]=montpellier_shopping
 
 [SiteAccessSettings]
 CheckValidity=false
 AvailableSiteAccessList[]
 AvailableSiteAccessList[]=site
+AvailableSiteAccessList[]=montpellier_shopping
 AvailableSiteAccessList[]=site_admin
 MatchOrder=uri
 HostMatchMapItems[]
@@ -37,4 +52,19 @@ TransportUser=fabien.scantamburlo@sfr.fr
 TransportPassword=croissant
 AdminEmail=fabscanta@gmail.com
 EmailSender=
+
+# Developement #
+
+[DebugSettings]
+DebugOutput=enabled
+
+[ContentSettings]
+ViewCaching=disabled
+
+[TemplateSettings]
+ShowUsedTemplates=enabled
+TemplateCompile=disabled
+TemplateCache=disabled
+DevelopmentMode=enabled
+
 */ ?>
